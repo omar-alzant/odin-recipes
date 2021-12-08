@@ -1,0 +1,59 @@
+body{
+    background: url(../img/back2.jpg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+ .border{
+    border-block: 10px pink;
+    border-style: solid; 
+    border-left-color:  pink;
+    border-right-color: pink;
+    padding: 10px;
+
+}
+img{
+    border-radius: 10px;
+}
+.box{ 
+    background-color: lightpink;
+    text-align: center;
+    padding-top: 30px ;
+    padding-bottom: 30px ;
+    margin: 10px;    
+}
+.box1{
+    
+    float: inline-end;
+    background-color: lightpink;
+    margin-top:   20px;
+    margin-bottom: 20px;
+
+    margin-left: 250px ;
+    margin-right: 250px ;
+
+    padding: 10px;
+}
+.center {
+    background-color: lightpink;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    padding: 10px;
+    }
+footer{
+    clear: both;
+    background: lightskyblue;
+    padding-top:  25px ;
+    padding-bottom: 25px;
+    
+
+}
+footer a{
+    text-decoration: none;
+    color:lightslategrey;
+}
+a:focus , a:hover{
+    color:mediumorchid ;
+    font-size: larger;    
+}
